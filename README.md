@@ -16,7 +16,7 @@ Uses Ridge Regression and Gradient Boosting Decision Trees (GBDT) trained on ~65
 
 **Initial Results:**
 
-* `GBDT (Log-Price)`: **MAE ~$4.81, Bucket Acc (±1) ~87.2%** `<-- This is saved in models_scratch_improved/`
+* `GBDT (Log-Price)`: **MAE ~$4.81, Bucket Acc (±1) ~87.2%**
 * `Ridge (Log-Price)`: MAE ~$5.04, Bucket Acc (±1) ~86.2%
 * `GBDT (Price)`: MAE ~$6.15, Bucket Acc (±1) ~65.9%
 * `Ridge (Price)`: MAE ~$5.51, Bucket Acc (±1) ~79.2%
