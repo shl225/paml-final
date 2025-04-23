@@ -35,4 +35,4 @@ I added some basic price elasticity estimates and discount % recommendations sin
 
 * **Angelique Taylor** for help with Ridge Regression code structure (https://canvas.cornell.edu/courses/73516/files/12333700?module_item_id=3046217)
 * **Stefan Lessmann** for help with GBDT code structure (https://github.com/Humboldt-WI/bads/blob/master/algorithms_from_scratch/gradient_boosting.ipynb)
-* **Vinit Mehra's** House Price repo helped as well (https://github.com/vinit714/House-Price-Prediction-with-ElasticNetCV-Regression-and-Log-Transform)
+* **Prajwal Kusha** Housing Price repo helped as well (https://github.com/PrajwalKusha/House_Price_Prediction_Kaggle_Competition)
