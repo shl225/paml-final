@@ -21,7 +21,7 @@ Uses Ridge Regression and Gradient Boosting Decision Trees (GBDT) trained on ~65
 
 **Necessary (For Training)**
 
-* For running the python notebook locally, you will need to download the SteamDB dataset (~200MB). I have linked it on Cornell BOX [here](https://cornell.box.com/s/ztj3durw8v73c74vtia0h5b662yvidk0).
+* For running the python notebook locally, you will need to download the Steam API dataset (~26MB) and SteamDB dataset (~200MB). I have linked it on Cornell BOX [here](https://cornell.box.com/s/ztj3durw8v73c74vtia0h5b662yvidk0).
 
 **Issue List:**
 
