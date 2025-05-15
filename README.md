@@ -3,7 +3,7 @@ Uses Ridge Regression and Gradient Boosting Decision Trees (GBDT) trained on ~65
 
 **Running Locally**
 
-1.) Clone or download and unzip the repo onto your local computer. CD into the project directory root.
+1.) Clone or download and unzip the repo onto your local computer. `cd` into the project directory root.
 
 2.) Run `pnpm install` or `npm install` for packages to be installed. We use React for visual frontend and Streamlit API for model inference.
 
