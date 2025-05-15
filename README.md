@@ -1,5 +1,25 @@
-# Steam Price Predictor (Checkpoint Version)
+# Steam Price Predictor (Final Version)
 Uses Ridge Regression and Gradient Boosting Decision Trees (GBDT) trained on ~65k games with ~67 features from Steam database
+
+**Running Locally**
+
+1.) Clone or download and unzip the repo onto your local computer. CD into the project directory root.
+
+2.) Run `pnpm install` or `npm install` for packages to be installed. We use React for visual frontend and Streamlit API for model inference.
+
+3.) Run `pip install -r backend/requirements.txt`. You may need to create a virtual environment with `venv` first.
+
+4.) Run `pnpm dev` or `npm run dev` to run the webserver. It will automatically use the checkpointed GBDT model joblib in `models/`.
+
+5.) Describe your game using inputs and run the recommendation query to use the model.
+
+**Optional**
+
+* For 'Price Analysis' tab to work, you need to download the 'visualizations' dataset (~2GB). I have linked it on Cornell BOX [here](https://cornell.box.com/s/bgwste3xmz7ob1ag2jho3gxu3bf324vm).
+
+**Necessary (For Training)**
+
+* For running the python notebook locally, you will need to download the SteamDB dataset (~200MB). I have linked it on Cornell BOX [here](https://cornell.box.com/s/ztj3durw8v73c74vtia0h5b662yvidk0).
 
 **Issue List:**
 
@@ -14,7 +34,7 @@ Uses Ridge Regression and Gradient Boosting Decision Trees (GBDT) trained on ~65
 * Methods for price elasticity / discount ideas updated to be leak-free
 * Added predictions for log of the price due to extreme skew
 
-**Initial Results:**
+**Results:**
 
 * `GBDT (Log-Price)`: **MAE ~$4.81, Bucket Acc (±1) ~87.2%**
 * `Ridge (Log-Price)`: MAE ~$5.04, Bucket Acc (±1) ~86.2%
