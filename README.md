@@ -11,7 +11,9 @@ Uses Ridge Regression and Gradient Boosting Decision Trees (GBDT) trained on ~65
 
 4.) Run `pnpm dev` or `npm run dev` to run the webserver. It will automatically use the checkpointed GBDT model joblib in `models/`.
 
-5.) Describe your game using inputs and run the recommendation query to use the model.
+5.) Navigate to `http://localhost:3000` in your browser to use the interactive frontend.
+
+6.) On the 'Recommendations' page, describe your game using inputs and run the recommendation query to use the model.
 
 **Optional**
 
