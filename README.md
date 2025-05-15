@@ -7,7 +7,7 @@ Uses Ridge Regression and Gradient Boosting Decision Trees (GBDT) trained on ~65
 
 2.) Run `pnpm install` or `npm install` for packages to be installed. We use React for visual frontend and Streamlit API for model inference.
 
-3.) Run `pip install -r backend/requirements.txt`. You may need to create a virtual environment with `venv` first.
+3.) Run `pip install -r backend/requirements.txt` to install the necessary libraries.
 
 4.) Run `pnpm dev` or `npm run dev` to run the webserver. It will automatically use the checkpointed GBDT model joblib in `models/`.
 
